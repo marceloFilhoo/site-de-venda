@@ -1,0 +1,234 @@
+html{
+    font-family: arial;
+}
+/* CABEÇALHO */
+.banner{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/capa2.jpg);
+    background-position: center;
+    position: relative;
+
+}
+.box-conteiner{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    right: 100px;
+    bottom: 250px;
+    text-align: center;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .8;
+}
+.texto{
+    position: absolute;
+    width: 100%;
+    top: 65px;
+    color: white;
+}
+.texto h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+.texto p{
+    font-size: 20px;
+}
+.company-info-container{
+    width: 100%;
+    height: 175px;
+    position: absolute;
+    bottom: 0px;
+}
+.info-background{
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+    background-color: #DDD;
+}
+.info-text{
+    position: absolute;
+    top: 40px;
+    padding-left: 10%;
+    width: 500px;
+}
+.info-text h2{
+   font-size: 24px;
+   margin-bottom: 30px;
+}
+
+/* serviços */
+.serviços-container{
+    max-width: 1200px;
+    height: 540px;
+    padding: 30px 10%;
+    
+}
+
+.box-service{
+    width: 100%;
+    height: 150px;
+    clear: both;
+    margin-bottom: 30px;
+}
+.box-service:last{
+    margin-bottom: 0;
+
+}
+#box-unico{
+    background-color: #2364AA;
+}
+.box{
+    width: 20%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+.box p{  
+    color: #fff;
+    font-size: 18px;
+    padding-top: 35px;
+    line-height: 24px;
+ 
+}
+
+.text-service{
+    width: 80%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    
+}
+
+.text-service h3{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#gerenciamento-title{
+    color: #2364AA;
+}
+.text-service p{
+    font-size: 14px;
+    line-height: 22px;
+    
+}
+.box-service2{
+    width: 100%;
+    height: 150px;
+    clear: both;
+    margin-bottom: 30px;
+}
+#box-unico1{
+    background-color: #3DA5D9;
+}
+#desenvovimento-title{
+    color: #3DA5D9;
+}
+#box-unico3{
+    background-color: #73BFB8;
+}
+#design-title{
+    color: #73BFB8;
+}
+.footer-container{
+    background-image: url(../img/rodape.jpg);
+    background-position: center;
+}
+.about-container{
+    max-width: 1200px;
+    padding: 30px 10%;
+    position: relative;
+    clear: both;
+}
+.about-card{
+    width: 30%;
+    padding: 30px;
+    float: left;
+    background-color: #FFF;
+    text-align: center;
+    box-sizing: border-box;
+}
+.about-card p{
+  color: #888;
+  text-align: left;
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 50px;
+}
+.about-card i{
+    color: #888;
+    font-size: 50px;
+    
+}
+.middle-card{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer{
+    clear: both;
+    max-width: 1200px;
+    height: 500px;
+    padding: 30px 10%;
+    position: relative;
+}
+
+.form-container{
+    width: 65%;
+    height: 375px;
+    position: relative;
+}
+.form-background{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: .5;
+}
+.form-container form{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 300px;
+}
+.form-container input, .form-container textarea{
+    width: 400px;
+    display: block;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 15px;
+    background-color: transparent;
+}
+.form-container .enviar{
+    background-color: #222;
+    color: #FFF;
+    width: 100px;
+    float: right;
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid transparent;
+}
+.form-container .enviar:hover {
+    background-color: #fff;
+    color: #222;
+    border: 1px solid #222;
+
+}
+.copyright{
+    text-align: center;
+    color: #222;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
